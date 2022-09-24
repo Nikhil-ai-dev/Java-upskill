@@ -10,6 +10,7 @@ public class App {
         if(newObject.equals(existingObject)){
             System.out.println("Object 1 and 2 are equal");
         }
+
         System.out.println("newObject hash code "+newObject.hashCode());
         System.out.println("newObject hash code "+existingObject.hashCode());
     }
